@@ -1,0 +1,33 @@
+postgres_dsn: "host=127.0.0.1 port=5432 user=user123 password=123 dbname=construction_crm sslmode=disable"
+server_port: ":8080"
+jwtkey: ""
+path_for_avatar: ""
+
+telegram:
+  telegram_token: "BOT:TOKEN"
+  chat_id: "1"
+
+file_storage:
+  host:
+  access_key:
+  secret_key:
+  ssl:
+
+firebase:
+  path: "./firebase_example.json"
+
+server_email:
+  host: ""
+  port: 2525
+  login: ""
+  from: ""
+  pass: ""
+  email_unsubscribe: ""
+  email_name_sender: ""
+  email_sender: ""
+
+sms:
+  sms_url: ""
+  sms_pass: ""
+  sms_login: ""
+  sms_sender: ""
